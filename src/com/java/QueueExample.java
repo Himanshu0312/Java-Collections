@@ -15,11 +15,14 @@ public class QueueExample {
 		queue.add("Jai");
 		queue.add("Rahul");
 		System.out.println("iterating the queue elements:");
+		
 		itr = queue.iterator();
 		while (itr.hasNext()) {
 			System.out.println(itr.next());
 		}
+		
 		System.out.println("iterating the queue elements [NEW] :");
+		
 		while(queue.peek() != null) {
 			System.out.println(queue.remove());
 		}
