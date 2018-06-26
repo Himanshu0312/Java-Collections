@@ -22,9 +22,9 @@ public class QueueExample {
 		}
 		
 		System.out.println("iterating the queue elements [NEW] :");
-		
+		/*
 		while(queue.peek() != null) {
 			System.out.println(queue.remove());
-		}
+		}*/
 	}
 }
