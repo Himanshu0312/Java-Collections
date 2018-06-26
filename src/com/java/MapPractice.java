@@ -12,12 +12,10 @@ public class MapPractice {
 		map.put(3, "Raman");
 		map.put(4, "Jai");
 		map.put(5, "Rahul");
-		System.out.println("The Map elements:");
+		System.out.println("TheÂ MapÂ elements:");
 		
 		for (Map.Entry mEntry : map.entrySet()) {
 			System.out.println(mEntry.getKey()+" :: "+mEntry.getValue());
 		}
-		
-		//Deleted some bad comment lines
 	}
 }
