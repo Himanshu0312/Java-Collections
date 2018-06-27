@@ -14,6 +14,10 @@ public class MapPractice {
 		map.put(5, "Rahul");
 		System.out.println("The Map elements:");
 		
+		System.out.println(map.values());
+		
+		map.remove(3);
+		
 		for (Map.Entry mEntry : map.entrySet()) {
 			System.out.println(mEntry.getKey()+" :: "+mEntry.getValue());
 		}
